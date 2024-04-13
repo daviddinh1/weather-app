@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Todo list</title>
+</head>
+<body>
+ <div class="container">
+  <div class="projects">
+   <button class="projectDiv" id="0">Projects</button>
+   <button id="btnProjects">+</button>
+  </div>
+
+  <div class="inbox">
+   <div id="inbox-header">Inbox</div>
+   <div class="inbox-container" id="0">stuff lel</div>
+  </div>
+
+   <button id="showCreateTodo">TEST TEST TEST</button>
+
+ </div>
+
+ <dialog id="createTodo">
+  <form>
+   <div>
+    <label for="title">Title:</label>
+    <input id="title" type="text">
+   </div>
+
+   <div>
+    <label for="description">Description:</label>
+    <input id="description" type="text">
+   </div>
+
+   <div>
+    <label for="dueDate">Date:</label>
+    <input id="dueDate" type="date">
+   </div>
+
+   <div>
+    <label>Priority:
+     <select id="priority">
+      <option>High</option>
+      <option>Medium</option>
+      <option>Low</option>
+     </select>
+    </label>
+   </div>
+   <div>
+    <button value="cancel" formmethod="dialog">Cancel</button>
+    <button id="createBtn" value="default">Create</button>
+   </div>
+  </form>
+ </dialog>
+
+ <dialog id="createProject">
+  <form>
+   <label for="projectTitle">Create Project:</label>
+   <input type="text" id="projectTitle">
+
+   <div>
+    <button id="createProjectBtn">Create</button>
+    <button value="cancel" formmethod="dialog">Cancel</button>
+   </div>
+  </form>
+ </dialog>
+
+</body>
+</html>

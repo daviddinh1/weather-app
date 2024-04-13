@@ -1,0 +1,54 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+.container{
+ display: flex;
+}
+
+.projects{
+ background-color: #222629;
+ width: 20vw;
+ height: 100vh;
+}
+
+.inbox{
+ background-color: #bfbfbf;
+ width: 80vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+}
+
+#inbox-header{
+ padding-top: 50px;
+ font-family:Helvetica, sans-serif;
+ font-size: 1.5em;
+}
+
+.inbox-container{
+ background-color: #222629;
+ width: 1000px;
+ height: 700px;
+ border-radius: 25px;
+}
+
+.todoContainer{
+ background-color: white;
+ width: auto;
+ height: 70px;
+ display: flex;
+ gap: 10px;
+}
+
+#showCreateTodo{
+ width: 100px;
+}
+
+#checkerBtn{
+ width: 50px;
+ height: 50px;
+}
